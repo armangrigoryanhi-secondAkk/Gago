@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="hy">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="ԳԱԳՈ-ի լուսանկարները, տեսանյութերը, գրառումները և ձայնագրությունները։"
+    />
+    <title>ԳԱԳՈ — Անձնական էջ</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+  </head>
+  <body>
+    <div class="page-shell">
+      <header class="site-header">
+        <a class="wordmark" href="#home" aria-label="ԳԱԳՈ — գլխավոր էջ">ԳԱԳՈ<span>®</span></a>
+      </header>
+
+      <main>
+        <section class="hero" id="home" aria-labelledby="page-title">
+          <div class="hero-copy">
+            <h1 id="page-title">ԳԱԳՈ<span class="title-period">.</span></h1>
+          </div>
+          <div class="hero-art" aria-hidden="true">
+            <div class="orbit orbit-one"></div>
+            <div class="orbit orbit-two"></div>
+            <div class="hero-sun"></div>
+          </div>
+        </section>
+
+        <section class="collection" id="collection" aria-labelledby="collection-title">
+          <div class="section-heading">
+            <div>
+              <h2 id="collection-title">Հավաքածու</h2>
+            </div>
+          </div>
+
+          <div class="tabs" role="tablist" aria-label="Հավաքածուի բաժիններ">
+            <button class="tab is-active" id="tab-photos" type="button" role="tab" aria-selected="true" aria-controls="panel-photos" data-panel="panel-photos">
+              Նկար
+            </button>
+            <button class="tab" id="tab-videos" type="button" role="tab" aria-selected="false" aria-controls="panel-videos" data-panel="panel-videos" tabindex="-1">
+              Վիդեո
+            </button>
+            <button class="tab" id="tab-texts" type="button" role="tab" aria-selected="false" aria-controls="panel-texts" data-panel="panel-texts" tabindex="-1">
+              Տեքստ
+            </button>
+            <button class="tab" id="tab-recordings" type="button" role="tab" aria-selected="false" aria-controls="panel-recordings" data-panel="panel-recordings" tabindex="-1">
+              Ձայնարկում
+            </button>
+          </div>
+
+          <div class="tab-panel" id="panel-photos" role="tabpanel" aria-labelledby="tab-photos">
+            <div class="photo-grid">
+              <figure class="photo-card photo-card-large">
+                <img class="photo photo-scene-one" src="./IMG-20260930-WA0000.jpg" alt="Գագիկի լուսանկար">
+              </figure>
+              <figure class="photo-card">
+                <img class="photo photo-scene-two" src="./1793693094742.jpg" alt="Գագիկի լուսանկար">
+              </figure>
+              <figure class="photo-card">
+                <img class="photo photo-scene-three" src="./1793693509894.jpg" alt="Գագիկի լուսանկար">
+              </figure>
+              <figure class="photo-card">
+                <div class="photo photo-placeholder" role="img" aria-label="Նոր լուսանկարի տեղ">
+                  <img class="photo photo-scene-two photo-face-focus" src="./1000011400.jpg" alt="Գագիկի լուսանկար">
+                </div>
+              </figure>
+              <figure class="photo-card">
+                <div class="photo photo-placeholder" role="img" aria-label="Նոր լուսանկարի տեղ">
+                                  <img class="photo photo-scene-three" src="./1000011656.jpg" alt="Գագիկի լուսանկար">
+                </div>
+              </figure>
+              <figure class="photo-card">
+                <div class="photo photo-placeholder" role="img" aria-label="Նոր լուսանկարի տեղ">
+                  <img class="photo photo-scene-one" src="./IMG-e66569600317cd3cd336771ffbc39999-V.jpg" alt="Գագիկի լուսանկար">
+                </div>
+              </figure>
+            </div>
+          </div>
+
+          <div class="tab-panel" id="panel-videos" role="tabpanel" aria-labelledby="tab-videos" hidden>
+            <div class="video-grid">
+              <article class="video-card">
+                <div class="video video-preview">
+                  <video class="video" src="./video-582a9478c3ada1f11fc12c033946cb02-V.mp4" controls></video>
+                </div>
+              </article>
+              <article class="video-card">
+                <div class="video video-preview">
+                  <div class="video-art video-art-two"><span class="video-sky"></span><span class="video-hill"></span></div>
+                  <span class="play-button" aria-hidden="true">▶</span>
+                </div>
+              </article>
+            </div>
+          </div>
+
+          <div class="tab-panel" id="panel-texts" role="tabpanel" aria-labelledby="tab-texts" hidden>
+            <div class="text-grid">
+              <article class="text text-card">
+                <h4>Ես․․․</h4>
+                <p>Բարև ես Գագիկն եմ եկել եմ արևելյան դպրոցից նաև ես առաջին դասարանից եմ եկել դպրոց։ Սիրում եմ սովորել լեզուներ ու նաև սիրում խախաղ համակարգչային խաղեր
+
+fortnite
+
+rocket lige
+
+counter strike
+
+Սիրելի առարկան գեռմաներեն է նաև սովորում եմ ֆռանսերեն աստղակերպով ես առյուծ եմ շատեմ սիրում որ ինձ ուշադրություն եմ դարցնում բայց գիտեմ որ դա վատ բնավորություն եմ ցույց է տալիս նարցիզությու։</p>
+              </article>
+            </div>
+          </div>
+
+          <div class="tab-panel" id="panel-recordings" role="tabpanel" aria-labelledby="tab-recordings" hidden>
+            <div class="record-list">
+              <article class="record record-card">
+                <div class="record-info"><h3>Կատու</h3></div>
+                <audio class="record-player" controls preload="metadata">
+                  <source src="./Կատու_KLICKAUD.mp3" type="audio/mpeg">
+                  Ձեր դիտարկիչը չի աջակցում ձայնի նվագարկումը։
+                </audio>
+              </article>
+              <article class="record record-card">
+                <div class="record-info"><h3>Ամանորյա թողարկում</h3></div>
+                <audio class="record-player" controls preload="metadata">
+                  <source src="./Ամանորյա%20թողարկում-504208248.mp3" type="audio/mpeg">
+                  Ձեր դիտարկիչը չի աջակցում ձայնի նվագարկումը։
+                </audio>
+              </article>
+            </div>
+          </div>
+        </section>
+      </main>
+
+      <footer class="site-footer">
+        <a class="footer-mark" href="#home">ԳԱԳՈ<span>®</span></a>
+        <a class="back-to-top" href="#home">ՎԵՐԵՎ <span aria-hidden="true">↑</span></a>
+      </footer>
+    </div>
+  </body>
+</html>
